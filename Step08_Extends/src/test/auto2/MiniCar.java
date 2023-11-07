@@ -3,6 +3,7 @@ package test.auto2;
 import test.auto.Car;
 import test.auto.Engine;
 
+
 public class MiniCar extends Car {
 
 	public MiniCar(Engine engine) {

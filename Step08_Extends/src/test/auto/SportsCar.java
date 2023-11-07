@@ -8,7 +8,7 @@ public class SportsCar extends Car {
 		//부모 생성자에 필요한 값을 자식 생성자에서 받아서 전달해야 한다.
 		//super()코드 실행전에 다른 코드가 있으면 안된다.
 		super(engine); 
-		
+
 	}
 	
 	public void openDrive() {
