@@ -32,10 +32,10 @@ public class MainClass10 {
 		for(int i=0 ; i < list.size() ; i++) {
 			System.out.println(list.get(i));
 		}
-		for(Map<String, Object>map4 : list) {
+		for(Map<String, Object> map4 : list) {
 			System.out.println(map4);
 		}
-		for(Map<String, Object>map4 : list) {
+		for(Map<String, Object> map4 : list) {
 			String result = String.format("번호:%d 이름:%s 주소:%s",(int)map4.get("num"),(String)map4.get("name"),(String)map4.get("addr"));
 			System.out.println(result);
 		}
